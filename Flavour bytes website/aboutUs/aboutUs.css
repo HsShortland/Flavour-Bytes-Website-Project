@@ -1,0 +1,35 @@
+.imgInfo{
+    background-color: white;
+    width:90%;
+    margin:0;
+}
+img{
+    width:200px;
+    height:200px;
+    padding:10px;
+    background-color: white;
+    object-fit: cover;
+}
+.lauraImg{
+    width:180px;
+}
+.sadieImg{
+    width:180px;
+}
+p{
+    width: 90%;
+    height:90%;
+    text-align: center;
+    margin:0;
+    padding: 20px;
+    font-size: large;
+}
+.or{
+    margin-top:10px; 
+    font-weight:bold;
+}
+.divColour{
+    background-color: white;
+    width:90%;
+    margin-left:50px;
+}

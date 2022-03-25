@@ -1,0 +1,58 @@
+.imgIngredient{
+    height:100px;
+    width:100px;
+}
+figcaption{
+    width:100px;
+    height:100px;
+    /* border:30px; */
+}
+.flexRowTop{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+h4{
+    margin:0 30px 0px 10px;
+    background-color: white;
+    width:90%;
+    text-align: left;
+    padding:10px;
+}
+p{
+    width:90%;
+    text-align:left;
+    margin: 0 30px 0 10px;
+    text-align: start;
+    background-color: white;
+    padding:10px;
+}
+.ingredientsMethod{
+    background-color: white;
+    margin:10px;
+    border-radius: 15px;
+}
+h3 span{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7facd6;
+    color: white;
+    margin: 20px;
+}
+h3{
+    margin:40px;
+}
+.roundedCornerTop{
+    border-radius: 15px 15px 0 0;
+}
+.roundedCornerBottom{
+    border-radius: 0 0 15px 15px;
+}
+.roundedCornerAll{
+    border-radius: 15px;
+}
+figure{
+    margin:0;
+    padding:20px;
+}

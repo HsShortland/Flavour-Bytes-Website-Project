@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="../HomePage/homePageMain.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../HomePage/homePageMain.css" rel="stylesheet">
+    <link href="./allRecipes.css" rel="stylesheet">
+    <title>Flavour Bytes</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav" class="responsive">
+        <ul class="flexRowWrapStart" class="responsive">
+            <li><a href="../HomePage/homePage.html" class="active">Home</a></li>
+            <li><a href="../aboutUs/aboutUs.html">About Us</a></li>
+            <li><a href="../allRecipes/allRecipes.html">All Recipes</a></li>
+            <li><i class="fa fa-bars"></i></li>
+            </a>
+        </ul>
+    </div>
+    <div class="flexColumn">
+        <h1>All Recipes</h1>
+        <p style="font-weight:bold;" style="font-size:5vw;">The hunt for terrific taste and fantastic flavour is over!</p>
+    </div>
+    <!--Recipe Cards-->
+    <div>
+        <div class="flexRow" class="responsive">
+            <div class="responsive">
+                <div class="content">
+                    <a href="../recipe1/recipe1.html">
+                        <img id="recipeCardImage" src="../Images/alfredo.jpg" alt="Alfredo Pasta">
+                    </a>
+                    <br>
+                    <div class="flexRow">
+                    <button class="recipe-button">Italy<a href="http:/recipe1/recipe1"></a></button>
+                    </div>
+                    <h3>Chicken Alfredo Pasta</h3>
+                    <p>Oh, chicken alfredo: It's the classic pasta we just can't seem to get enough of. Of course there are tons of jarred pasta sauces you can buy, but making alfredo from-scratch is actually so easy.</p>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="content">
+                    <a href="../recipe3/recipe3.html">
+                        <img id="recipeCardImage" src="../Images/noodles.jpg" alt="Noodles">
+                    </a>
+                    <br>
+                    <div class="flexRow">
+                    <button class="recipe-button">China</button>
+                    </div>
+                    <h3>Chow Mein</h3>
+                    <p>The BEST chow mein at home in less than 30 min! Perfectly crispy noodles with bok choy, mushrooms + bean sprouts!</p>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="content">
+                    <a href="../recipe4/recipe4.html">
+                        <img id="recipeCardImage" src="../Images/Indian-Lamb-Curry.jpg" alt="curry">
+                    </a>
+                    <br>
+                    <div class="flexRow">
+                    <button class="recipe-button">India</button>
+                    </div>
+                    <h3>Lamb Curry</h3>
+                    <p>Warm, spicy and fragrant, home-cooked feel-good food. The joys of visiting your Indian (step) Mum.</p>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="content">
+                    <img id="recipeCardImage" src="../Images/Indian-Fish-Curry-with-Coconut-Milk-2.jpg" alt="Fish Curry" style="object-fit:cover">
+                    <br>
+                    <div class="flexRow">
+                    <button class="recipe-button">Thai</button>
+                    </div>
+                    <h3>Coconut Fish Curry</h3>
+                    <p>This colourful hake and prawn one-pot has Thai and Indian inspired flavours and is quick enough for midweek - ready in under 30 minutes</p>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="content">
+                    <a href="../recipe5/recipe5.html"> <img id="recipeCardImage" src="../Images/cheddar-jalapeno-muffins.jpg" alt="cheddar-jalapeno-muffins" style="object-fit:cover">
+                    </a>
+                    <br>
+                    <div class="flexRow">
+                    <button class="recipe-button">TexMex</button>
+                    </div>
+                    <h3>Jalapeno Cornbread Muffins</h3>
+                    <p>The simple corn muffin is a beautiful thing. You can serve this make-ahead marvel as a side dish and then eat any leftovers for a quick breakfast.</p>
+                </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <h3>About Us</h3>
+        <div class="flexRow">
+            <!--Team Images-->
+            <figure>
+                <img src="../Images/megan.jpeg" alt="Woman named Megan" class="homePageAboutUs">
+                <figcaption class="caption">Megan</figcaption>
+            </figure>
+            <figure>
+                <img src="../Images/laura.png" alt="Woman named Laura" class="homePageAboutUs">
+                <figcaption class="caption">Laura</figcaption>
+            </figure>
+            <figure>
+                <img src="../Images/helen.jpeg" alt="Woman named Helen" class="homePageAboutUs">
+                <figcaption class="caption">Helen</figcaption>
+            </figure>
+            <figure>
+                <img src="../Images/Sadie.jpg" alt="your image" class="homePageAboutUs">
+                <figcaption class="caption">Sadie</figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="your image" class="homePageAboutUs">
+                <figcaption class="caption">Name here</figcaption>
+            </figure>
+        </div>
+        <!--Team Link-->
+        <div class="flexRow">
+            <div id=aboutUs>
+                <a href="../aboutUs/aboutUs.html"><span>Meet the Flavour Bytes Team</span></a>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <footer class="flexRow">
+                <a class=" emailUs" href="mailto:FlavourBytes@gmail.com">Email Us</a> 
+            </footer>
+            <script src="../HomePage/homePageMain.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

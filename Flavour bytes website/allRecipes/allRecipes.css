@@ -1,0 +1,9 @@
+h1 {
+    border-radius: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #7facd6, #bfb8da);
+    color: white;
+    margin: 20px;
+    white-space: nowrap;
+    font-size: 5vw;
+}
